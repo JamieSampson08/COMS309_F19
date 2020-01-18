@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/form_padding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.UploadImageActivity"
+    tools:showIn="@layout/activity_upload_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/image_upload_radius">
+
+        <Button
+            android:id="@+id/upload_image_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/form_padding"
+            android:text="@string/upload_image"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_to_upload"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_upload_height"
+        android:src="@drawable/upload" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/image_upload_radius">
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/form_padding"
+            android:text="@string/submit"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="@dimen/space_width"
+            android:layout_height="@dimen/space_height"
+            android:layout_weight="@dimen/space_weight"></Space>
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/form_padding"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

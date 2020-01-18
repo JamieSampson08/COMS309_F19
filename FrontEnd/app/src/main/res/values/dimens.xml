@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="avatar_image">220dp</dimen>
+    <dimen name="form_padding">20dp</dimen>
+    <dimen name="half_form_padding">10dp</dimen>
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="home_margins">8dp</dimen>
+    <dimen name="home_font_size">20sp</dimen>
+    <dimen name="home_margin_top">4dp</dimen>
+    <dimen name="form_horizontal_margin">8dp</dimen>
+    <dimen name="form_vertical_margin">8dp</dimen>
+    <dimen name="edit_text_length">300dp</dimen>
+    <dimen name="text_view_length">80dp</dimen>
+    <dimen name="form_top_padding">15dp</dimen>
+    <dimen name="horizontal_divider_height">1dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="wide_padding">16dp</dimen>
+    <dimen name="card_width">354dp</dimen>
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="image_upload_radius">30dp</dimen>
+    <dimen name="image_upload_height">350dp</dimen>
+    <dimen name="space_width">0dp</dimen>
+    <dimen name="space_weight">1</dimen>
+    <dimen name="space_height">1dp</dimen>
+    <dimen name="mastery_image">70dp</dimen>
+    <dimen name="mastery_image_top_padding">80dp</dimen>
+    <dimen name="mastery_image_left_margin">8dp</dimen>
+</resources>

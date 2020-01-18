@@ -1,0 +1,7 @@
+.idea/
+SpringTest.iml
+out/
+build/
+.gradle/
+.DS_Store
+lib/

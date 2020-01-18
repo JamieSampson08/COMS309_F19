@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"eventXpert"},{"l":"eventXpert.controllers"},{"l":"eventXpert.entities"},{"l":"eventXpert.errors"},{"l":"eventXpert.repositories"}]
